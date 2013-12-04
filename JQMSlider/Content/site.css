@@ -1,0 +1,26 @@
+#sliderContainer{
+  clear: both;
+}
+
+/* Slider Classes */
+.sliderTable {
+    margin: 2em auto;
+    width: 90%;
+}
+.sliderLeftColumn {
+    text-align: right;
+    width: 20%;
+}
+.sliderCenterColumn {
+    text-align: center;
+    width: 60%;
+}
+.sliderRightColumn {
+    text-align: left;
+    width: 20%;
+}
+.ui-slider-input { display: none!important; }
+.sliderCenterColumn .ui-slider-track {
+    margin-left: 15px;
+}
+

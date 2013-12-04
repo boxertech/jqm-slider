@@ -1,0 +1,5 @@
+E:\DEV\BoxerTech\JQMSlider\JQMSlider\bin\JQMSlider.dll
+E:\DEV\BoxerTech\JQMSlider\JQMSlider\bin\JQMSlider.pdb
+E:\DEV\BoxerTech\JQMSlider\JQMSlider\obj\Debug\JQMSlider.csprojResolveAssemblyReference.cache
+E:\DEV\BoxerTech\JQMSlider\JQMSlider\obj\Debug\JQMSlider.dll
+E:\DEV\BoxerTech\JQMSlider\JQMSlider\obj\Debug\JQMSlider.pdb

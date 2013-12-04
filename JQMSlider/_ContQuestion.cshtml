@@ -1,0 +1,57 @@
+﻿@using PIQSurvey.Resources
+
+<header >
+  <div id="logoBanner"></div>
+  <div id="sectionTextContainer">{{currentSection.Text}}</div>
+  <div id="sectionHeadingContainer"><span class="participant-name">{{participant.firstname}} {{participant.lastname}}</span> - <span class="role-name">{{participant.rolename}}</span></div>
+</header>  
+<div id="body">
+  <div class="content-wrapper main-content clear-fix">
+    <div id="questionsContainer" data-role="content" >
+      <form name="questionForm" novalidate >
+        <table class="questionTable">
+          <tbody>
+            <tr data-ng-repeat="question in questions">
+              <td class="continuumLeftColumn">
+                <label for="slider-step-1">{{question.Text}}</label>
+              </td>
+              <td class="continuumCenterColumn">
+                <div class="continuumValueBar">
+                  <div class="continuumLeftValue">5</div>
+@*                  <div class="continuumLeftValue">4</div>
+                  <div class="continuumLeftValue">3</div>
+                  <div class="continuumLeftValue">2</div>
+                  <div class="continuumLeftValue">1</div>*@
+                  <div class="continuumRightValue">5</div>
+@*                  <div class="continuumRightValue">4</div>
+                  <div class="continuumRightValue">3</div>
+                  <div class="continuumRightValue">2</div>
+                  <div class="continuumRightValue">1</div>*@
+                  <div class="continuumCenterValue">0</div>
+                </div>
+                <div data-bx-slider >
+                  <div data-bx-slider-handle data-ng-model="question.Answer.Value" value="0" max="5" min="-5" step="1" ></div>
+                </div>
+              </td>
+              <td class="continuumRightColumn">
+                <label>{{question.Text2}}</label>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div id="answerCounterContainer" class="vertAlignBox">Answered <span data-ng-class="{'error-message': redCount}" >{{answerCount}}</span> of {{questions.length}}</div>
+   <div id="sectionCounterContainer" class="vertAlignBox">Section {{currentSectionNumber}} of {{sectionCount}}</div>
+   <div id="sectionButtonsVertContainer" class="vertAlignBox">
+     <div id="sectionButtonsHorizContainer">
+       <div id="nextContainer"><div data-href="{{nextPath}}" id="nextButton" jqm-button data-ng-fast-button="NextSection(nextPath)" bx-button-active icon="ui-icon-arrow-r" iconpos="right" mini="true">@Strings.AppButton_Next</div></div>
+       <div id="prevContainer"><div data-href="{{nextPath}}" id="prevButton" jqm-button data-ng-fast-button="PreviousSection(prevPath)" icon="ui-icon-arrow-l" iconpos="left" mini="true" >@Strings.AppButton_Previous</div></div>
+     </div>
+   </div>
+</footer>
+

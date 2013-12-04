@@ -1,0 +1,5 @@
+﻿<div jqm-scope-as="bxSlider" class="ui-slider" data-ng-class="{'ui-disabled': $scopeAs.bxSlider.disabled}">
+  <div ng-transclude data-ng-class="{'ui-radio-on': $scopeAs.bxRadio.checked, 'ui-btn-active': $scopeAs.bxRadio.checked, 'ui-radio-off': !$scopeAs.bxRadio.checked,'ui-first-child': $scopeAs.bxRadio.$position.first, 'ui-last-child': $scopeAs.bxRadio.$position.last,'ui-mini':$scopeAs.bxRadio.isMini(), 'ui-fullsize':!$scopeAs.bxRadio.isMini(),'ui-btn-icon-left': $scopeAs.bxRadio.getIconPos()!='right', 'ui-btn-icon-right': $scopeAs.bxRadio.getIconPos()=='right'}" data-ng-click="$scopeAs.bxRadio.toggleChecked()" class="ui-slider-track ui-btn-down-c ui-btn-corner-all">
+    <input type="number" data-ng-model="$scopeAs.bxSlider.value" min="-5" max="5" data-type="range" id="slider-step-3" name="slider-step" class="continuumSlider ui-input-text ui-body-c ui-corner-all ui-shadow-inset ui-slider-input" />
+  </div>
+</div>
