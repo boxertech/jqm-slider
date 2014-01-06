@@ -3,3 +3,8 @@ E:\DEV\BoxerTech\JQMSlider\JQMSlider\bin\JQMSlider.pdb
 E:\DEV\BoxerTech\JQMSlider\JQMSlider\obj\Debug\JQMSlider.csprojResolveAssemblyReference.cache
 E:\DEV\BoxerTech\JQMSlider\JQMSlider\obj\Debug\JQMSlider.dll
 E:\DEV\BoxerTech\JQMSlider\JQMSlider\obj\Debug\JQMSlider.pdb
+C:\DEV\jqm-slider\JQMSlider\bin\JQMSlider.dll
+C:\DEV\jqm-slider\JQMSlider\bin\JQMSlider.pdb
+C:\DEV\jqm-slider\JQMSlider\obj\Debug\JQMSlider.csprojResolveAssemblyReference.cache
+C:\DEV\jqm-slider\JQMSlider\obj\Debug\JQMSlider.dll
+C:\DEV\jqm-slider\JQMSlider\obj\Debug\JQMSlider.pdb

@@ -1,7 +1,8 @@
-﻿    <div jqm-scope-as="bxSliderHandle" data-ng-class="{'ui-mini':$scopeAs.bxSliderHandle.isMini(), 'ui-fullsize':!$scopeAs.bxSliderHandle.isMini()}" class="ui-slider-handle ui-btn ui-btn-up-c ui-shadow ui-btn-corner-all" role="slider" style="left: 50%;" data-corners="true">
-      <a href="#" >
-       <div class="ui-btn-inner">
-         <div class="ui-btn-text" data-ng-transclude></div>
-       </div>
-      </a>
+﻿    <input jqm-scope-as="jqmSliderHandle" type="number" data-ng-model="$scopeAs.jqmSliderHandle.value" data-type="range" id="slider-step-3" name="slider-step" class="continuumSlider ui-input-text ui-body-c ui-corner-all ui-shadow-inset ui-slider-input" />
+    <div data-ng-class="{'ui-mini':$scopeAs.bxRajqmSliderHandledio.isMini()}" class="ui-slider-track ui-btn-down-c ui-btn-corner-all">
+        <a href="#" data-ng-class="{'ui-mini':$scopeAs.bxSliderHandle.isMini()}" class="ui-slider-handle ui-btn ui-btn-up-c ui-shadow ui-btn-corner-all" role="slider" style="left: 50%;" data-corners="true">
+           <div class="ui-btn-inner">
+             <div class="ui-btn-text" data-ng-transclude></div>
+           </div>
+        </a>
     </div>

@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Jasmine Test Runner</title>
+  <script type="text/javascript" src="/Scripts/jasmine/jasmine.js"></script>
+  <script type="text/javascript" src="/Scripts/jasmine/jasmine-html.js"></script>
+  <script type="text/javascript" src="/Scripts/AngularJS-1.1.5/angular.min.js"></script>
+<!--  <script type="text/javascript" src="../lib/angular-mocks.js"></script>-->
+  <script type="text/javascript" src="/Scripts/directives.js"></script>
+  <script type="text/javascript" src="/Scripts/tests/unit/testutils.js"></script>
+  <script type="text/javascript" src="/Scripts/tests/unit/jqmSliderSpec.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+      jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+      jasmine.getEnv().execute();
+  </script>
+</body>
+</html>

@@ -1,11 +1,9 @@
 ﻿var controllers = {};
 
-angular.module('bxDirectives', [])
+angular.module('jqmDirectives', [])
   .directive(jqmSliderDirective)
-  .directive(jqmSliderHandleDirective)
-  .directive(ngTapDirective)
-  .directive(ngFastButtonDirective);
+  .directive(jqmSliderHandleDirective);
 
-var sliderDemoApp = angular.module('sliderDemoApp', ['jqm', 'bxDirectives', 'ajoslin.scrolly.dragger', 'ajoslin.scrolly.transformer']).
+var sliderDemoApp = angular.module('sliderDemoApp', ['jqm', 'jqmDirectives', 'ajoslin.scrolly.dragger', 'ajoslin.scrolly.transformer']).
   controller(controllers);
 

@@ -45,9 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\site.css" />
+    <Content Include="jquerymobileslider.html" />
     <Content Include="Images\boxer.ico" />
     <Content Include="jqmslider.html" />
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\angular-jqm.js" />
     <Content Include="Scripts\angular-scrolly.min.js" />
     <Content Include="Scripts\AngularJS-1.1.5\angular-cookies.min.js" />
@@ -68,14 +71,21 @@
     <Content Include="Scripts\directives.js" />
     <Content Include="Scripts\dragger.js" />
     <Content Include="Scripts\factories.js" />
+    <Content Include="Scripts\jasmine\jasmine-html.js" />
+    <Content Include="Scripts\jasmine\jasmine.js" />
     <Content Include="Scripts\services.js" />
-    <Content Include="Scripts\tests\jqmSliderHandleSpec.js" />
-    <Content Include="Scripts\tests\jqmSliderSpec.js" />
-    <Content Include="Scripts\tests\testUtilsSpec.js" />
+    <Content Include="Scripts\tests\unit\jqmSliderHandleSpec.js" />
+    <Content Include="Scripts\tests\unit\jqmSliderSpec.js" />
+    <Content Include="Scripts\tests\unit\testutils.js" />
+    <Content Include="Scripts\tests\unit\unitRunner.html" />
     <Content Include="Scripts\transformer.js" />
+    <Content Include="templates\jqmSliderHandleThree.html" />
+    <Content Include="templates\jqmSliderThree.html" />
     <Content Include="templates\jqmSlider.html" />
     <Content Include="templates\jqmSliderHandle.html" />
     <Content Include="web.config" />
+    <Content Include="Scripts\jasmine\MIT.LICENSE" />
+    <Content Include="package.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -98,9 +108,9 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>19192</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:28039/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

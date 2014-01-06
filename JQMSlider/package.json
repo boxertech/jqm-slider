@@ -1,0 +1,22 @@
+{
+  "name": "jqm-slider",
+  "version": "0.0.0",
+  "description": "jqm-slider\r ==========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boxertech/jqm-slider.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/boxertech/jqm-slider/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-ts": "~1.4.6"
+  }
+}

@@ -14,16 +14,8 @@
         <link rel="shortcut icon" href="Images/boxer.ico">
 
         <!-- The scripts -->
-        <script src="/Scripts/AngularJS-1.1.5/angular.min.js"></script>
-        <script src="/Scripts/AngularJS-1.1.5/angular-mobile.min.js"></script>
-        <script src="/Scripts/angular-scrolly.min.js"></script>
-        <script src="/Scripts/angular-jqm.js"></script>
-        <script src="/Scripts/AngularJS-1.1.5/ui-bootstrap-custom-0.6.0.min.js"></script>
-        <script src="/Scripts/AngularJS-1.1.5/ui-bootstrap-custom-tpls-0.6.0.min.js"></script>
-        <!-- App Sripts -->
-        <script src="/Scripts/directives.js"></script>
-        <script src="/Scripts/app.js"></script>
-        <script src="/Scripts/controller.js"></script>
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
     
     </head>
     <body data-ng-controller="SliderDemoController">
@@ -39,8 +31,8 @@
                       <td class="sliderLeftColumn">
                         <label for="slider-step-1">Slider Min Text</label>
                       </td>
-                      <td class="sliderCenterColumn" style="width:300px;">
-                        <input jqm-slider type="range" name="slider-1" id="slider1" min="-5" max="5" data-ng-model="slider.Value" />
+                      <td class="sliderCenterColumn">
+                        <input type="range" name="slider-1" id="slider1" min="-5" max="5" value="0" />
                       </td>
                       <td class="sliderRightColumn">
                         <label>Slider Max Text</label>
@@ -51,8 +43,7 @@
                         <label >Slider Value</label>
                       </td>
                       <td class="sliderCenterColumn">
-                        <input type="text" name="ctrlInput" ng-model="slider.Value" />
-                        <button ng-click="ctrlBtnClick()">bump 2</button>
+                        <label >{{slider.Value}}</label>
                       </td>
                       <td class="sliderRightColumn">
                         &nbsp;
