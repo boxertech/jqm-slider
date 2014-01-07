@@ -8,3 +8,8 @@ C:\DEV\jqm-slider\JQMSlider\bin\JQMSlider.pdb
 C:\DEV\jqm-slider\JQMSlider\obj\Debug\JQMSlider.csprojResolveAssemblyReference.cache
 C:\DEV\jqm-slider\JQMSlider\obj\Debug\JQMSlider.dll
 C:\DEV\jqm-slider\JQMSlider\obj\Debug\JQMSlider.pdb
+E:\DEV\AngularJS\jqm-slider\JQMSlider\bin\JQMSlider.dll
+E:\DEV\AngularJS\jqm-slider\JQMSlider\bin\JQMSlider.pdb
+E:\DEV\AngularJS\jqm-slider\JQMSlider\obj\Debug\JQMSlider.csprojResolveAssemblyReference.cache
+E:\DEV\AngularJS\jqm-slider\JQMSlider\obj\Debug\JQMSlider.dll
+E:\DEV\AngularJS\jqm-slider\JQMSlider\obj\Debug\JQMSlider.pdb

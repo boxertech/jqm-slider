@@ -65,9 +65,9 @@ var jqmSliderHandleDirective = {
                     calculateWidth();
 
                     //create $dragger and $transformer
-                    dragger = new $dragger(element);
+                    dragger = $dragger(element);
                     dragger.addListener($dragger.DIRECTION_ANY, dragListener);
-                    transformer = new $transformer(element);
+                    transformer = $transformer(element);
 
                     //calculate data parameters
                     scope.midData = (parsedMin + parsedMax) / 2;
@@ -92,9 +92,9 @@ var jqmSliderHandleDirective = {
                     }
                     transformer.setTo(newPos);
                     
-                    ngModelCtrl.$render = function () {
-                        scope.sliderValue = ngModelCtrl.$viewValue;
-                    };
+                    //ngModelCtrl.$render = function () {
+                    //    scope.sliderValue = ngModelCtrl.$viewValue;
+                    //};
                 }
 
                 ngModelCtrl.$formatters.push(function (value) {
@@ -184,12 +184,12 @@ var jqmSliderHandleDirective = {
                     if (!scope.axis) {
                         scope.axis = getSlideAxis(parentWithClass(elm[0], 'ui-slider-track'));
                     }
-                    var screenWidth = $window.innerWidth;
-                    if (scope.axis.width < screenWidth) {
+                    //var screenWidth = $window.innerWidth;
+                    //if (scope.axis.width < screenWidth) {
                         scope.slideWidth = scope.axis.width;
-                    } else {
-                        scope.slideWidth = scope.axis.width - screenWidth + scope.axis.left + scope.axis.right;
-                    }
+                    //} else {
+                    //    scope.slideWidth = scope.axis.width - screenWidth + scope.axis.left + scope.axis.right;
+                    //}
                     return;
                 };
 

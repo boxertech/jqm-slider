@@ -40,7 +40,8 @@
                         <label for="slider-step-1">Slider Min Text</label>
                       </td>
                       <td class="sliderCenterColumn" style="width:300px;">
-                        <input jqm-slider type="range" name="slider-1" id="slider1" min="-5" max="5" data-ng-model="slider.Value" />
+                        <div jqm-slider type="range" name="slider-1" id="slider1" min="-5" max="5" data-ng-model="slider.Value"></div>
+                         My slider value is: {{slider.Value}}
                       </td>
                       <td class="sliderRightColumn">
                         <label>Slider Max Text</label>
